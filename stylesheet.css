@@ -17,7 +17,7 @@ li{
     margin: 8px;
     height: 95px;
     width: 95px;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     border-top: 3px solid yellowgreen;
     border-bottom: 3px solid lightpink;
     box-shadow: 3px 3px  blueviolet,  -3px -3px lightblue, 5px 5px lightsalmon, -5px -5px blue;
@@ -28,16 +28,16 @@ li{
     -o-border-radius: 20%;
 }
 .globe{
-    background-image: url(img/globe-solid.svg);
+    background-image: url(img/1.svg);
 }
 .edit{
-    background-image: url(img/edit-regular.svg);
+    background-image: url(img/2.svg);
 }
 .sign{
-    background-image: url(img/sign-in-alt-solid.svg);
+    background-image: url(img/3.svg);
 }
 .ellipsis{
-    background-image: url(img/ellipsis-h-solid.svg);
+    background-image: url(img/4.svg);
 }
 a{
     display: inline-block;
@@ -49,13 +49,18 @@ a{
 li:hover span{
     opacity: 1;
     text-align: center;
-    background-color: rgb(173, 118, 236);
+    background-color: rgb(84, 14, 163);
     font-weight: bold;
     border-radius: 20%;
     -webkit-border-radius: 20%;
     -moz-border-radius: 20%;
     -ms-border-radius: 20%;
     -o-border-radius: 20%;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 span{
     display: flex;
@@ -64,4 +69,9 @@ span{
     opacity: 0; 
     width: 95px;
     height: 95px;
+}
+li:hover {
+    border-top: 3px solid rgb(205, 50, 115);
+    border-bottom: 3px solid rgb(19, 238, 73);
+    box-shadow:  3px 3px  blueviolet,  -3px -3px lightblue, 5px 5px lightsalmon, -5px -5px blue;
 }
