@@ -49,7 +49,6 @@ a{
 li:hover span{
     opacity: 1;
     text-align: center;
-    background-color: rgb(84, 14, 163);
     font-weight: bold;
     border-radius: 20%;
     -webkit-border-radius: 20%;
@@ -61,17 +60,22 @@ li:hover span{
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
+    background: linear-gradient(250deg, #e05252 1%, #99e052 22%, #52e0e0 70%, #bc9bdd 79%, #e05252 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 span{
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0; 
+    opacity: 0;
     width: 95px;
     height: 95px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 li:hover {
     border-top: 3px solid rgb(205, 50, 115);
     border-bottom: 3px solid rgb(19, 238, 73);
     box-shadow:  3px 3px  blueviolet,  -3px -3px lightblue, 5px 5px lightsalmon, -5px -5px blue;
+    background-image: none;
 }
